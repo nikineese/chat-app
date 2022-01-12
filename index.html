@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+<div class="phone">
+  <div class="top-menu">
+    <div class="white-brow"></div>
+    <div class="top-menu-content">
+    <img class="back-button" src="left-arrow.svg" alt="back button">
+      <div class="top-menu-content-user">
+        <img class="avatar" src="avatar.jpg" alt="user's avatar">
+        <div class="top-menu-content-user-info">
+  <span class="top-menu-name">Samuel Green</span>
+  <span class="top-menu-status">Available to Walk</span>
+        </div>
+        <button class="top-menu-content-dots btn-reset">
+
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="chat">
+    <div class="left-messages">
+  <div class="message">That sounds great. I’d be happy with that.</div>
+  <div class="message">Could you send over some pictures of your dog, please?</div>
+    </div>
+    <div class="right-messages">
+  <div class="message photo-message">
+    <img src="dog-image-1.jpg" alt="" class="dog-image">
+    <img src="dog-image-2.jpg" alt="" class="dog-image">
+    <img src="dog-image-3.jpg" alt="" class="dog-image">
+  </div>
+  <div class="message">Here are a few pictures. She’s a happy girl!</div>
+  <div class="message">Can you make it?</div>
+    </div>
+    <div class="left-messages">
+  <div class="message">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
+      <div class="pay-messages">
+        <form>
+  <div class="message">
+    <input type="radio" class="radio-button" name="radiobutton" id="ChoiceNo1" value="30 minute walk">
+    <label for="ChoiceNo1"><span class="pay-text1">30 minute walk</span></label>
+    <span class="pay-price">$29</span>
+  </div>
+  <div class="message">
+    <input type="radio" class="radio-button" name="radiobutton" id="ChoiceNo2" value="1 hour walk">
+    <label for="ChoiceNo2"><span class="pay-text2">1 hour walk</span></label>
+    <span class="pay-price">$49</span>
+  </div>
+        </form>
+      </div>
+  </div>
+  </div>
+  <div class="send-message">
+    <form action="#">
+      <input id="text" type="text" placeholder="Type a message…" >
+      <label for="text"></label>
+      <button class="btn-reset btn" >
+        <img class="btn-arrow" src="left-arrow.svg" alt="">
+      </button>
+    </form>
+  </div>
+</div>
+  <div class="hero">
+    <h1 class="hero-title">Simple booking</h1>
+
+  <span class="hero-descr">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat.</span>
+  </div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
