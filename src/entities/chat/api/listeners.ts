@@ -1,6 +1,6 @@
 import { createEffect } from "effector";
-import { context } from "shared/api";
+import { socket } from "shared/api";
 
 export const unsubscribeFx = createEffect(() => {
-  context.socket?.close();
+  socket.stop();
 });
