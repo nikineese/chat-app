@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Socket Server
+
+### Use socket server from this repository `https://github.com/socketio/socket.io/tree/master/examples/chat`
+
 ## Available Scripts
 
 In the project directory, you can run:
