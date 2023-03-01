@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Socket Server
 
 ### Use socket server from this repository `https://github.com/socketio/socket.io/tree/master/examples/chat`
+### Change default port to 4000 before using it
 
 ## Available Scripts
 
