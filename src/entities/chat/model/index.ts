@@ -1,5 +1,5 @@
 import { createEvent, createStore, sample, restore, createEffect } from "effector";
-import { stopTyping, typing, unsubscribeFx } from "../api";
+import { stopTyping, typing } from "../api";
 import { Message } from "shared/api";
 import { userJoinedMessage, userLeftMessage } from "./constants";
 import {
@@ -10,6 +10,7 @@ import {
   getUserTyping,
   numUsersChanged,
   setNumUsers,
+  unsubscribeFx,
 } from "./listeners";
 import { connectUserFx, sendNewMessageFx } from "./emitters";
 import { prependEventTarget } from "shared/lib/helpers/prependEventTarget";

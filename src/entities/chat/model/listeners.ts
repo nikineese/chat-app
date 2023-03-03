@@ -1,5 +1,5 @@
 import { createEffect, createEvent, merge, sample } from "effector";
-import { Login, Message, UserEvent, UserTyping } from "shared/api";
+import { Login, Message, socket, UserEvent, UserTyping } from "shared/api";
 import {
   loginDone,
   newMessageReceived,
@@ -48,4 +48,7 @@ sample({
     userTypingFx,
     userStopTypingFx,
   ],
+});
+export const unsubscribeFx = createEffect(() => {
+  socket.stop();
 });
